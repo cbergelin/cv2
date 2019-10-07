@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+
+}
+
+
+
+header{
+    background: url(header.jpg);
+    height: 500px;
+    width: fill;
+    color: aliceblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.welcome{
+ 
+}
+
+#headtext{
+    
+}
+
+#starta{
+
+    background: #1C2FAF;
+    border-radius: 400px;
+    border: solid black 1px;
+    padding: .2rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    transition: all .1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+
+
+}
+
+#starta:hover{
+    background-color:#0F1A60; 
+}
+
+h1{
+    font-size: 65px;
+}
+
+p{
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    width: fill;
+    height: 400px;
+   
+}
+ .länk{
+     text-decoration: none;
+ }
+
+.links{
+    height: 250px;
+    width: 250px;
+    clip-path: circle(50% at 50% 50%);
+    color: aliceblue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-decoration: none;
+      
+
+}
+
+#about{
+    background: url(profil2.jpg);
+    transition: all .1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+   
+}
+
+#portfolio{
+    background: url(portfolio.jpg);
+    transition: all .1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+
+#contact{
+    background: url(contact.jpg);
+    transition: all .1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+
+
+#about:hover{
+    transform: scale(1.2);
+}
+
+#portfolio:hover{
+    transform: scale(1.2);
+}
+
+#contact:hover{
+    transform: scale(1.2);
+}
+
+#ommig{
+   display: flex;
+   height: 750px;
+   margin-top: 20px;
+    justify-content: space-between;
+}
+
+#rubrik{
+    font-family: 
+    display: flex;
+    margin-top:50px;
+    justify-content: center;
+    font-size: 40px;
+    
+    
+}
+
+#bild{
+    
+    margin-right: 50px;
+    height: 350px;
+    
+
+}
+
+#text{
+    
+    margin-left: 50px;
+    width: 750px;
+}
